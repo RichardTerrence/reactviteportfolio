@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.skill {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-area: about;
+  padding: 5rem;
+  height: 100%;
+  color: #352f44;
+  font-family: Poppins;
+}
+.title {
+  font-size: 2.5em;
+}
+.progress ul li {
+  font-size: 1.5em;
+}
+.progress {
+  padding: 1rem;
+}
+.progressbar {
+  position: relative;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 300px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.progressbar1,
+.progressbar2,
+.progressbar3,
+.progressbar4,
+.progressbar5 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.progressbar1 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent1 {
+  width: 75%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.progressbar2 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent2 {
+  width: 60%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.progressbar3 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent3 {
+  width: 70%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.progressbar4 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent4 {
+  width: 80%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.progressbar5 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent5 {
+  width: 50%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+@media (max-width: 768px) {
+  .skill {
+    padding: 0.5rem;
+  }
+  .progressbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.progressBar {
+  position: relative;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.progresstitle {
+  margin-top: -0.8rem;
+}
+.progressbar-1,
+.progressbar-2,
+.progressbar-3,
+.progressbar-4 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.progressbar-1 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent-1 {
+  width: 75%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.progressbar-2 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent-2 {
+  width: 60%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.progressbar-3 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent-3 {
+  width: 70%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.progressbar-4 {
+  width: 100%;
+  height: 50%;
+  background: #b9b4c7;
+}
+.progresspercent-4 {
+  width: 80%;
+  height: 100%;
+  background: #352f44;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+@media (max-width: 768px) {
+  .skill {
+    padding: 0.5rem;
+  }
+  .progressBar {
+    display: flex;
+    flex-direction: column;
+  }
+}

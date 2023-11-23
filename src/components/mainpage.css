@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.imgContainer {
+  height: 100vh;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(../image/rtg.jpg);
+  background-size: cover;
+}
+.main-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "sidebar main";
+  gap: 10px;
+  margin: 0;
+  height: 100%;
+  font-family: Poppins;
+}
+main {
+  grid-area: main;
+}
+aside {
+  grid-area: sidebar;
+  text-align: left;
+  margin-top: 2rem;
+  padding: 7rem;
+  color: #faf0e6;
+}
+aside h2 {
+  color: #b9b4c7;
+}
+.title:hover {
+  color: #5c5470;
+}
+section p {
+  font-size: 1.5em;
+}
+button {
+  font-size: 1.5em;
+  background-color: #352f44;
+  width: 10rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(119, 111, 131, 0.5);
+}
+button a:hover {
+  color: #b9b4c7;
+}
+button a {
+  list-style: none;
+  text-decoration: none;
+  color: #050505;
+}
+@media (max-width: 768px) {
+  .main-side {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "sidebar"
+      "main"
+      "button";
+  }
+  .imgContainer {
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 50%,
+        rgba(0, 0, 0, 0.8) 50%
+      ),
+      url(../image/rtg.jpg);
+    background-size: contain;
+  }
+}

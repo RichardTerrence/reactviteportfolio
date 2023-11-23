@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.education {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-area: about;
+  font-family: Poppins;
+  padding: 2rem;
+  color: #050505;
+}
+.education p {
+  font-size: 1.5em;
+}
+.education h6 {
+  text-transform: uppercase;
+  color: red;
+}
+.title {
+  font-size: 2.5em;
+}
