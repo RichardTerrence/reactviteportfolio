@@ -7,19 +7,51 @@
 }
 .education {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-area: about;
-  font-family: Poppins;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "education training";
+  gap: 2rem;
   padding: 2rem;
-  color: #050505;
+  color: #352f44;
 }
-.education p {
+.education-container {
+  grid-area: education;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  font-family: Poppins;
+  border-radius: 10px;
+}
+.education-title {
   font-size: 1.5em;
 }
-.education h6 {
-  text-transform: uppercase;
-  color: red;
+.education-year p {
+  font-size: 1em;
 }
-.title {
-  font-size: 2.5em;
+.education-year ul li {
+  font-size: 1.5em;
+}
+.training-container {
+  grid-area: training;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 1rem;
+  font-family: Poppins;
+}
+.training-title {
+  font-size: 1.5em;
+}
+.training-year p {
+  font-size: 1em;
+}
+.training-year ul li {
+  font-size: 1.5em;
+}
+@media (max-width: 768px) {
+  .education {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "education"
+      "training";
+  }
 }

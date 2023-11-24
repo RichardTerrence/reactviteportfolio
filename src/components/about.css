@@ -11,11 +11,23 @@
   grid-area: about;
   font-family: Poppins;
   padding: 2rem;
-  color: #0505050;
+  margin: 4rem;
+  color: #352f44;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 .about p {
   font-size: 1.5em;
 }
-.title {
+.about .title {
   font-size: 2.5em;
+}
+@media (max-width: 768px) {
+  .about p {
+    font-size: 1em;
+  }
+  .about .title {
+    font-size: 1.5em;
+  }
 }

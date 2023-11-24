@@ -6,6 +6,7 @@ import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Navibar from "./components/Navibar";
 import Mainpage from "./components/Mainpage";
+import BuligITdriBulig from "./components/BuligITdriBulig";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/skill" element={<Skill />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/buligitdribulig" element={<BuligITdriBulig />} />
         </Routes>
       </BrowserRouter>
     </div>

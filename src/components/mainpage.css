@@ -27,21 +27,26 @@
 main {
   grid-area: main;
 }
+.main-side h1 {
+  color: #352f44;
+  cursor: progress;
+}
+.main-side h1:hover {
+  color: #5c5470;
+}
+
 aside {
   grid-area: sidebar;
   text-align: left;
-  margin-top: 2rem;
-  padding: 7rem;
+  margin-top: 3rem;
+  padding: 5rem;
   color: #faf0e6;
 }
 aside h2 {
   color: #b9b4c7;
 }
-.title:hover {
-  color: #5c5470;
-}
 section p {
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 button {
   font-size: 1.5em;
@@ -51,7 +56,7 @@ button {
   border-radius: 10px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(119, 111, 131, 0.5);
+  padding: 0.2rem;
 }
 button a:hover {
   color: #b9b4c7;
@@ -60,6 +65,7 @@ button a {
   list-style: none;
   text-decoration: none;
   color: #050505;
+  font-size: 0.8em;
 }
 @media (max-width: 768px) {
   .main-side {

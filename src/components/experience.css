@@ -5,13 +5,23 @@
   margin: 0;
   box-sizing: border-box;
 }
-.experience {
+.experience-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-area: about;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "experience-img experience-summary";
+  gap: 2rem;
   font-family: Poppins;
-  padding: 2rem;
-  color: #050505;
+  padding: 4rem;
+  color: #352f44;
+}
+.experience-img {
+  grid-area: experience-img;
+}
+.experience-summary {
+  grid-area: experience-summary;
+}
+.content:hover {
+  transform: scale(1.1);
 }
 img {
   width: 100%;
@@ -22,4 +32,78 @@ img {
 }
 .title {
   font-size: 2.5em;
+}
+.miniproject {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 9rem;
+  color: #352f44;
+  border-radius: 10px;
+}
+.majorproject {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 9rem;
+  color: #352f44;
+  border-radius: 10px;
+}
+.capstoneproject {
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin-top: 11rem;
+  color: #352f44;
+  border-radius: 10px;
+}
+.ecommerce-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr;
+  grid-template-areas:
+    "capstonetitle capstonetitle"
+    "ecommerce1 ecommerce2";
+}
+.capstonetitle {
+  grid-area: capstonetitle;
+}
+.ecommerce1 {
+  grid-area: ecommerce1;
+}
+.ecommerce2 {
+  grid-area: ecommerce2;
+}
+@media (max-width: 768px) {
+  .experience-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "experience-img"
+      "experience-summary";
+  }
+  .miniproject {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+  }
+  .majorproject {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+  }
+  .capstoneproject {
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+  }
+  .ecommerce-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "capstonetitle"
+      "ecommerce1"
+      "ecommerce2";
+  }
 }

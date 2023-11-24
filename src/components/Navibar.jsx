@@ -32,6 +32,9 @@ export default function Navibar() {
           <li>
             <NavLink to="/education">Education</NavLink>
           </li>
+          <li>
+            <NavLink to="/buligitdribulig">BuligItdriBulig</NavLink>
+          </li>
         </ul>
       </nav>
     </div>

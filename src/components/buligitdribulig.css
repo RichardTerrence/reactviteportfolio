@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dribulig-container {
+  padding: 2rem;
+}
+.dribulig {
+  padding: 2rem;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.dribulig h5 {
+  font-size: 1.5em;
+}
+.dribulig p {
+  font-size: 1.2em;
+}
+.dribulig a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: red;
+}
+.dribuligka {
+  margin-bottom: 0.5rem;
+}

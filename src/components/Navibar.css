@@ -15,7 +15,7 @@
   font-family: Poppins;
 }
 .active {
-  background-color: #5c5470;
+  background-color: #5d5279;
 }
 nav ul li a:not(.active):hover {
   background-color: #b9b4c7;

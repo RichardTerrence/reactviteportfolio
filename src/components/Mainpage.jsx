@@ -8,6 +8,7 @@ const Gorex = () => {
         <main></main>
         <aside>
           <section>
+            <h1>Richard Terrence A. Go</h1>
             <h2 className="title">Front-End Developer</h2>
           </section>
           <section>
@@ -18,7 +19,7 @@ const Gorex = () => {
           </section>
           <button>
             <a href="https://github.com/" target="_blank">
-              Lick Mi
+              Read More
             </a>
           </button>
         </aside>
