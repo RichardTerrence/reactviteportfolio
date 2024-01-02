@@ -5,17 +5,37 @@
   margin: 0;
   box-sizing: border-box;
 }
-.about {
+.about-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-area: about;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "about" "work-experience";
   font-family: Poppins;
-  padding: 2rem;
-  margin: 4rem;
-  color: #352f44;
+  gap: 2rem;
+  color: #fb2576;
+}
+.about {
+  grid-area: about;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  margin: 2rem;
+}
+.work-experience {
+  grid-area: work-experience;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  margin: 2rem;
+}
+.year-experience {
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+.work-experience p {
+  font-size: 1.5em;
 }
 .about p {
   font-size: 1.5em;

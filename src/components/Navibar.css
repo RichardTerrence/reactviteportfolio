@@ -15,14 +15,14 @@
   font-family: Poppins;
 }
 .active {
-  background-color: #5d5279;
+  background-color: #4c0033;
 }
 nav ul li a:not(.active):hover {
-  background-color: #b9b4c7;
+  background-color: #790252;
 }
 nav {
   grid-area: navbar;
-  background-color: #352f44;
+  background-color: #000000;
   padding: 0.5rem;
 }
 nav,
@@ -36,7 +36,7 @@ ul {
 nav ul li a {
   display: block;
   text-decoration: none;
-  color: #faf0e6;
+  color: #fb2576;
   padding: 1rem;
   margin: 0 0.5rem;
   border-radius: 0.5rem;
@@ -46,7 +46,7 @@ nav .title {
   margin: 1rem;
   font-weight: bold;
   text-decoration: none;
-  color: #faf0e6;
+  color: #fb2576;
 }
 nav .menu {
   display: none;
@@ -62,12 +62,12 @@ nav .menu {
 nav .menu span {
   height: 0.4rem;
   width: 100%;
-  background-color: #faf0e6;
+  background-color: #fb2576;
   border-radius: 0.2rem;
 }
 
 @media (max-width: 768px) {
-  .mypages {
+  .navbar {
     grid-template-columns: 1fr;
     grid-template-areas: "navbar";
   }

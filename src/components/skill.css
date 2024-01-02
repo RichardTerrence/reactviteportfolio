@@ -11,7 +11,7 @@
   grid-area: about;
   padding: 5rem;
   height: 100%;
-  color: #352f44;
+  color: #fb2576;
   font-family: Poppins;
 }
 .title {
@@ -42,12 +42,12 @@
 .progressbar1 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent1 {
   width: 75%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;
@@ -55,12 +55,12 @@
 .progressbar2 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent2 {
   width: 60%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;
@@ -68,12 +68,12 @@
 .progressbar3 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent3 {
   width: 70%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;
@@ -81,12 +81,12 @@
 .progressbar4 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent4 {
   width: 80%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;
@@ -94,12 +94,12 @@
 .progressbar5 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent5 {
   width: 50%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;
@@ -133,12 +133,12 @@
 .progressbar-1 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent-1 {
   width: 75%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;
@@ -146,12 +146,12 @@
 .progressbar-2 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent-2 {
   width: 60%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;
@@ -159,12 +159,12 @@
 .progressbar-3 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent-3 {
   width: 70%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;
@@ -172,12 +172,12 @@
 .progressbar-4 {
   width: 100%;
   height: 50%;
-  background: #b9b4c7;
+  background: #d8d8d8;
 }
 .progresspercent-4 {
   width: 80%;
   height: 100%;
-  background: #352f44;
+  background: #4c0033;
   text-align: center;
   color: white;
   font-size: 1em;

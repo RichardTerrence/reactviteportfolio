@@ -11,7 +11,7 @@
   grid-template-areas: "education training";
   gap: 2rem;
   padding: 2rem;
-  color: #352f44;
+  color: #fb2576;
 }
 .education-container {
   grid-area: education;
@@ -30,6 +30,11 @@
 .education-year ul li {
   font-size: 1.5em;
 }
+.diploma button {
+  font-size: 1.1em;
+  background-color: #fb2576;
+  color: #fff;
+}
 .training-container {
   grid-area: training;
   background-color: #fff;
@@ -37,6 +42,7 @@
   border-radius: 10px;
   padding: 1rem;
   font-family: Poppins;
+  color: #fb2576;
 }
 .training-title {
   font-size: 1.5em;
@@ -46,6 +52,11 @@
 }
 .training-year ul li {
   font-size: 1.5em;
+}
+.training-certificate button {
+  font-size: 1.1em;
+  background-color: #fb2576;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .education {

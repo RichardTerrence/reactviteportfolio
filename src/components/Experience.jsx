@@ -13,13 +13,13 @@ export default function Experience() {
         <h1 className="title">Portfolio</h1>
         <div className="tatoo-web">
           <h2>Mini Project</h2>
-          <div className="content" style={{ cursor: "pointer" }}>
+          <div className="content" style={{ cursor: "context-menu" }}>
             <img src={minproj1} alt="" />
           </div>
         </div>
         <div className="Api-driven">
           <h2>Major Project</h2>
-          <div className="content" style={{ cursor: "pointer" }}>
+          <div className="content" style={{ cursor: "context-menu" }}>
             <img src={majproj2} alt="" />
           </div>
         </div>
@@ -28,18 +28,18 @@ export default function Experience() {
             <h2>Capstone Project</h2>
           </div>
           <div className="ecommerce1">
-            <div className="content" style={{ cursor: "pointer" }}>
+            <div className="content" style={{ cursor: "context-menu" }}>
               <img className="capstone" src={capstone} alt="" />
             </div>
-            <div className="content" style={{ cursor: "pointer" }}>
+            <div className="content" style={{ cursor: "context-menu" }}>
               <img className="capstone1" src={capstone1} alt="" />
             </div>
           </div>
           <div className="ecommerce2">
-            <div className="content" style={{ cursor: "pointer" }}>
+            <div className="content" style={{ cursor: "context-menu" }}>
               <img className="capstone3" src={capstone3} alt="" />
             </div>
-            <div className="content" style={{ cursor: "pointer" }}>
+            <div className="content" style={{ cursor: "context-menu" }}>
               <img className="capstone2" src={capstone2} alt="" />
             </div>
           </div>

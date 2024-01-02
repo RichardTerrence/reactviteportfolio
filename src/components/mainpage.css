@@ -28,11 +28,11 @@ main {
   grid-area: main;
 }
 .main-side h1 {
-  color: #352f44;
-  cursor: progress;
+  color: #fb2576;
+  cursor: context-menu;
 }
 .main-side h1:hover {
-  color: #5c5470;
+  color: #4c0033;
 }
 
 aside {
@@ -40,17 +40,17 @@ aside {
   text-align: left;
   margin-top: 3rem;
   padding: 5rem;
-  color: #faf0e6;
+  color: #790252;
 }
 aside h2 {
-  color: #b9b4c7;
+  color: #fb2576;
 }
 section p {
   font-size: 1.3em;
 }
 button {
   font-size: 1.5em;
-  background-color: #352f44;
+  background-color: #3f0071;
   width: 10rem;
   margin-top: 1rem;
   border-radius: 10px;
@@ -59,12 +59,12 @@ button {
   padding: 0.2rem;
 }
 button a:hover {
-  color: #b9b4c7;
+  color: #790252;
 }
 button a {
   list-style: none;
   text-decoration: none;
-  color: #050505;
+  color: #fb2576;
   font-size: 0.8em;
 }
 @media (max-width: 768px) {
@@ -83,5 +83,6 @@ button a {
       ),
       url(../image/rtg.jpg);
     background-size: contain;
+    background-position: center;
   }
 }

@@ -19,6 +19,11 @@ export default function Education() {
             <li>ADFC - BSCS</li>
           </ul>
         </div>
+        <div className="diploma">
+          <a>
+            <button>Diploma</button>
+          </a>
+        </div>
       </div>
       <div className="training-container">
         <div className="training-title">
@@ -29,6 +34,11 @@ export default function Education() {
           <ul>
             <li>Bootcamp</li>
           </ul>
+        </div>
+        <div className="training-certificate">
+          <a>
+            <button>Training Certificate</button>
+          </a>
         </div>
       </div>
     </div>
